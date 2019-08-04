@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import pandas as pd
 count = 0
 
-df = pd.DataFrame(columns=['FIRST NAME', 'LAST NAME', 'EMAIL ADDRESS', 'JOB TITLE', 'SCHOOL NAME'])
+df = pd.DataFrame(columns=['NAME', 'LAST NAME', 'EMAIL ADDRESS', 'JOB TITLE', 'SCHOOL NAME'])
 
 
 def getInfo(url_s):
